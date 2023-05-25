@@ -1,0 +1,80 @@
+body nav {
+    height: 60px;
+}
+
+div>section {
+    scroll-snap-align: start;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+}
+
+html {
+    scroll-snap-type:y mandatory;
+}
+
+ul>li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+li>a {
+    float: left;
+    text-decoration: none;
+    width: 70px;
+}
+
+.form-control {
+    max-width: 50%;
+}
+
+#home {
+    background-color: #1d1f22;
+    color: white;
+}
+
+#contact {
+    background-color: indianred;
+    color: white;
+}
+
+#about {
+    background-color: turquoise;
+}
+
+#feedback {
+    background-color: #1d1f22;
+    color: white;
+}
+
+.logo {
+    max-height : 30px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+    background-color: #888;
+    padding: 15px;
+    padding-bottom: 0;
+    height: 30px;
+}
+
+#traveldestinations {
+    background-color: crimson;    
+}
+
+#traveldestinations a {
+    width: 30%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
